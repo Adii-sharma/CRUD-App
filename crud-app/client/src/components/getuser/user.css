@@ -1,0 +1,85 @@
+.userTable {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.header {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.addButton {
+    margin-top: 0.5rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+.userTable-content {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userTable-content th, 
+.userTable-content td {
+    padding: 12px;
+    text-align: left;
+}
+
+.userTable-content th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.userTable-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.userTable-content tr:hover {
+    background-color: #e0e0e0;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.deleteButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f50808; 
+    transition: transform 0.2s;
+}
+.editButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #1254efc9; 
+    transition: transform 0.2s;
+}
+
+.deleteButton:hover, 
+.editButton:hover {
+    transform: scale(1.1);
+}
